@@ -5,6 +5,8 @@ This folder contains static pages for public launch URLs:
 - `index.html` -> `https://promptmute.app/`
 - `privacy.html` -> `https://promptmute.app/privacy`
 - `support.html` -> `https://promptmute.app/support`
+- `downloads/PromptMute_0.1.0_universal.dmg` -> public macOS MVP download
+- `downloads/PromptMute_0.1.0_universal.dmg.sha256` -> checksum
 - `styles.css` -> shared styling
 - `assets/promptmute-icon.png` -> site-local app icon
 

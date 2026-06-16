@@ -221,6 +221,28 @@ p {
   margin-top: 10px;
 }
 
+.download-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid rgba(7, 91, 86, 0.24);
+  border-radius: var(--radius);
+  background: rgba(7, 91, 86, 0.07);
+  padding: 14px;
+}
+
+.download-panel div {
+  display: grid;
+  gap: 4px;
+}
+
+.download-panel span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .summary-card,
 .support-card {
   border: 1px solid var(--line);
@@ -333,6 +355,29 @@ li {
   padding: 8px 12px;
   text-decoration: none;
   max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.checksum-box {
+  display: grid;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper-soft);
+  margin-top: 14px;
+  padding: 12px;
+}
+
+.checksum-box span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.checksum-box code {
+  color: var(--ink);
+  font-size: 12px;
   overflow-wrap: anywhere;
 }
 
