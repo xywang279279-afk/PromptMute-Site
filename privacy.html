@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="PromptMute privacy policy: local processing, no account, no analytics, no upload, and optional encrypted local mapping storage."
+    />
+    <title>Privacy Policy | PromptMute</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="./support.html">
+          <img src="./assets/promptmute-icon.png" alt="PromptMute icon" />
+          <span>
+            <strong>PromptMute</strong>
+            <span>Local AI Prompt Privacy Cleaner</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="active" href="./privacy.html">Privacy</a>
+          <a href="./support.html">Support</a>
+        </nav>
+      </header>
+
+      <main class="site-main legal-layout">
+        <aside class="toc" aria-label="Privacy sections">
+          <strong>Privacy Policy</strong>
+          <a href="#summary">Summary</a>
+          <a href="#processed-data">Data Processed</a>
+          <a href="#not-collected">Data Not Collected</a>
+          <a href="#local-storage">Local Storage</a>
+          <a href="#exports">Exports</a>
+          <a href="#network">Network Use</a>
+          <a href="#choices">Your Choices</a>
+          <a href="#contact">Contact</a>
+          <a href="#zh">中文</a>
+        </aside>
+
+        <article class="doc">
+          <section class="doc-hero" id="summary">
+            <p class="eyebrow">Effective June 16, 2026</p>
+            <h1>Privacy Policy</h1>
+            <p>
+              PromptMute is designed to clean sensitive text locally before you
+              paste it into AI tools. The core product does not upload your
+              source text, cleaned text, or restore mappings to a server.
+            </p>
+            <div class="summary-grid">
+              <div class="summary-card">
+                <strong>No account</strong>
+                <span>The app does not require sign-in for core workflows.</span>
+              </div>
+              <div class="summary-card">
+                <strong>No upload</strong>
+                <span>Detection, redaction, restore, and reports run locally.</span>
+              </div>
+              <div class="summary-card">
+                <strong>No analytics SDK</strong>
+                <span>No third-party analytics or tracking SDK is configured.</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="doc-section" id="processed-data">
+            <h2>Data We Process</h2>
+            <p>
+              PromptMute processes text that you paste, type, import, or drag
+              into the app. This can include emails, logs, API keys, customer
+              information, documents, and other content that you choose to
+              provide.
+            </p>
+            <p>
+              Processing happens on your device in the local browser or desktop
+              WebView.
+            </p>
+          </section>
+
+          <section class="doc-section" id="not-collected">
+            <h2>Data We Do Not Collect</h2>
+            <ul>
+              <li>We do not require an account for core workflows.</li>
+              <li>We do not upload your source text.</li>
+              <li>We do not upload cleaned text.</li>
+              <li>We do not upload placeholder mapping data.</li>
+              <li>We do not call OpenAI, Anthropic, Google, or other AI APIs.</li>
+              <li>We do not include third-party analytics SDKs.</li>
+              <li>We do not sell personal data.</li>
+            </ul>
+          </section>
+
+          <section class="doc-section" id="local-storage">
+            <h2>Local Storage</h2>
+            <p>
+              By default, restore mapping data is kept only for the active
+              session.
+            </p>
+            <p>
+              If you enable Save last mapping, PromptMute stores the latest
+              mapping locally using browser Web Crypto.
+            </p>
+            <ul>
+              <li>PBKDF2-SHA-256 key derivation.</li>
+              <li>AES-GCM encryption.</li>
+              <li>Encrypted payload stored in local app storage.</li>
+            </ul>
+            <div class="notice warning">
+              <p>
+                PromptMute cannot recover a forgotten passphrase. Clearing local
+                app data can remove saved settings, custom rules, and encrypted
+                mappings.
+              </p>
+            </div>
+          </section>
+
+          <section class="doc-section" id="exports">
+            <h2>Exported Files</h2>
+            <p>Some exports are designed to be safe to share:</p>
+            <ul>
+              <li>Privacy reports do not include original sensitive values.</li>
+              <li>Batch safe JSON exports do not include original sensitive values.</li>
+            </ul>
+            <p>
+              Mapping exports are different. A mapping export includes original
+              values and should be treated as sensitive local data.
+            </p>
+          </section>
+
+          <section class="doc-section" id="network">
+            <h2>Network Use</h2>
+            <p>
+              The current app does not require network access for core
+              detection, redaction, restore, mapping, batch processing, or
+              privacy report workflows.
+            </p>
+          </section>
+
+          <section class="doc-section" id="choices">
+            <h2>Your Choices</h2>
+            <ul>
+              <li>You can clear the active session at any time.</li>
+              <li>You can disable Save last mapping.</li>
+              <li>You can clear saved mappings from the Privacy panel.</li>
+              <li>You can delete exported files from your device.</li>
+              <li>You can choose which detections are enabled before cleaning text.</li>
+            </ul>
+          </section>
+
+          <section class="doc-section" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-box">
+              <div class="contact-row">
+                <span>Privacy and support questions</span>
+                <a class="button-link" href="mailto:support@promptmute.app">
+                  support@promptmute.app
+                </a>
+              </div>
+              <div class="contact-row">
+                <span>Security reports</span>
+                <a href="./support.html#security">Responsible disclosure</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="doc-section zh" id="zh" lang="zh-CN">
+            <p class="eyebrow">中文摘要</p>
+            <h2>隐私政策摘要</h2>
+            <p>
+              PromptMute 用于在你把内容粘贴到 AI 工具前，在本机清理敏感文本。核心流程不会把原文、清理后的文本或占位符映射上传到服务器。
+            </p>
+            <ul>
+              <li>核心功能不需要账号。</li>
+              <li>检测、脱敏、还原和报告生成都在本机执行。</li>
+              <li>当前应用未配置第三方分析 SDK 或追踪 SDK。</li>
+              <li>默认不持久保存 mapping；可选保存时会用密码短语在本机加密。</li>
+              <li>隐私报告和批量安全导出不包含原始敏感值。</li>
+              <li>Mapping 导出包含原始值，应当当作敏感本地文件处理。</li>
+            </ul>
+            <p>
+              隐私或支持问题请联系：
+              <a href="mailto:support@promptmute.app">support@promptmute.app</a>
+            </p>
+          </section>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>Copyright © 2026 PromptMute. All rights reserved.</span>
+        <span>Last updated: June 16, 2026</span>
+      </footer>
+    </div>
+  </body>
+</html>

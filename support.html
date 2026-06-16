@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="PromptMute support page with contact details, troubleshooting steps, security reporting, and release information."
+    />
+    <title>Support | PromptMute</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="./support.html">
+          <img src="./assets/promptmute-icon.png" alt="PromptMute icon" />
+          <span>
+            <strong>PromptMute</strong>
+            <span>Local AI Prompt Privacy Cleaner</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="./privacy.html">Privacy</a>
+          <a class="active" href="./support.html">Support</a>
+        </nav>
+      </header>
+
+      <main class="site-main legal-layout">
+        <aside class="toc" aria-label="Support sections">
+          <strong>Support</strong>
+          <a href="#contact">Contact</a>
+          <a href="#before-contact">Before Contacting</a>
+          <a href="#troubleshooting">Troubleshooting</a>
+          <a href="#security">Security Reports</a>
+          <a href="#release-info">Release Info</a>
+          <a href="#zh">中文</a>
+        </aside>
+
+        <article class="doc">
+          <section class="doc-hero" id="contact">
+            <p class="eyebrow">PromptMute Support</p>
+            <h1>Support</h1>
+            <p>
+              For product help, privacy questions, and security reports, use the
+              contact options below. Include your app version, macOS version, and
+              a short description of what happened.
+            </p>
+            <div class="support-grid">
+              <div class="support-card">
+                <strong>Email</strong>
+                <span>support@promptmute.app</span>
+              </div>
+              <div class="support-card">
+                <strong>Current app</strong>
+                <span>PromptMute 0.1.0 for macOS</span>
+              </div>
+              <div class="support-card">
+                <strong>Typical response</strong>
+                <span>Best effort during business days</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="doc-section">
+            <h2>Contact</h2>
+            <div class="contact-box">
+              <div class="contact-row">
+                <span>General support</span>
+                <a class="button-link" href="mailto:support@promptmute.app">
+                  support@promptmute.app
+                </a>
+              </div>
+              <div class="contact-row">
+                <span>Privacy policy</span>
+                <a href="./privacy.html">Read the privacy policy</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="doc-section" id="before-contact">
+            <h2>Before Contacting Support</h2>
+            <p>Please include as much of the following as you can:</p>
+            <ul>
+              <li>PromptMute version.</li>
+              <li>macOS version and device type.</li>
+              <li>Whether you are using the browser build or desktop app.</li>
+              <li>What you expected to happen.</li>
+              <li>What actually happened.</li>
+              <li>Whether the issue happens with the built-in sample text.</li>
+            </ul>
+            <div class="notice warning">
+              <p>
+                Do not send raw API keys, passwords, private customer data, or
+                mapping exports unless we explicitly ask for a sanitized sample.
+              </p>
+            </div>
+          </section>
+
+          <section class="doc-section" id="troubleshooting">
+            <h2>Troubleshooting</h2>
+            <h3>Copy or paste does not work</h3>
+            <ul>
+              <li>Check macOS or browser clipboard permissions.</li>
+              <li>Try the desktop app if the browser blocks clipboard access.</li>
+              <li>Use Export as a temporary fallback.</li>
+            </ul>
+
+            <h3>Cleaned Prompt is empty</h3>
+            <ul>
+              <li>Confirm Original Text has content.</li>
+              <li>Run Scan after changing large text.</li>
+              <li>Click Clean & Copy to generate the output.</li>
+            </ul>
+
+            <h3>Restore does not replace placeholders</h3>
+            <ul>
+              <li>Confirm Mapping has active entries.</li>
+              <li>Do not clear session before restoring AI replies.</li>
+              <li>Unlock saved mapping with the correct passphrase if needed.</li>
+            </ul>
+
+            <h3>macOS blocks the app</h3>
+            <ul>
+              <li>Use a signed and notarized DMG from the official download page.</li>
+              <li>Confirm the app name is PromptMute.</li>
+              <li>Contact support with the exact Gatekeeper message.</li>
+            </ul>
+          </section>
+
+          <section class="doc-section" id="security">
+            <h2>Security Reports</h2>
+            <p>
+              If you believe you found a security issue, contact
+              <a href="mailto:support@promptmute.app">support@promptmute.app</a>
+              with a clear description and reproduction steps.
+            </p>
+            <ul>
+              <li>Do not include real secrets in the initial report.</li>
+              <li>Use a minimal sanitized example where possible.</li>
+              <li>Include the app version and operating system.</li>
+              <li>We may ask for additional details after triage.</li>
+            </ul>
+          </section>
+
+          <section class="doc-section" id="release-info">
+            <h2>Release Information</h2>
+            <ul>
+              <li>Product name: PromptMute.</li>
+              <li>Bundle identifier: com.promptmute.desktop.</li>
+              <li>Current version: 0.1.0.</li>
+              <li>Distribution target: macOS desktop DMG.</li>
+              <li>Core workflows are designed to run locally.</li>
+            </ul>
+          </section>
+
+          <section class="doc-section zh" id="zh" lang="zh-CN">
+            <p class="eyebrow">中文支持</p>
+            <h2>支持页面摘要</h2>
+            <p>
+              如需产品支持、隐私问题或安全问题反馈，请发送邮件到
+              <a href="mailto:support@promptmute.app">support@promptmute.app</a>。
+            </p>
+            <p>联系支持前，建议提供：</p>
+            <ul>
+              <li>PromptMute 版本号。</li>
+              <li>macOS 版本和设备型号。</li>
+              <li>使用的是桌面应用还是浏览器版本。</li>
+              <li>预期行为和实际行为。</li>
+              <li>问题是否能用内置示例文本复现。</li>
+            </ul>
+            <p>
+              请不要在邮件里直接发送真实 API Key、密码、客户隐私数据或 mapping 导出文件，除非我们明确要求你提供已脱敏的最小复现样例。
+            </p>
+          </section>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>Copyright © 2026 PromptMute. All rights reserved.</span>
+        <span>Last updated: June 16, 2026</span>
+      </footer>
+    </div>
+  </body>
+</html>
