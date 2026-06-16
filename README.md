@@ -10,8 +10,17 @@ This folder contains static pages for public launch URLs:
 
 The pages are static and can be deployed as a small standalone site.
 
-The repository also includes `.github/workflows/pages.yml`, which deploys this
-folder with GitHub Pages when `main` receives changes under `docs/site`.
+Current GitHub Pages deployment:
+
+```text
+https://xywang279279-afk.github.io/PromptMute-Site/
+https://xywang279279-afk.github.io/PromptMute-Site/privacy.html
+https://xywang279279-afk.github.io/PromptMute-Site/support.html
+```
+
+The source app repository is private. The public Pages deployment uses a
+separate public repository named `PromptMute-Site` that contains only this
+static folder.
 
 ## Deployment Notes
 
